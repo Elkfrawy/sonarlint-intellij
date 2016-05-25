@@ -11,9 +11,6 @@ script:
 env:
   matrix:
     - TARGET=CI
-    - TARGET=IT IDEA_VERSION=14.1.6
-    - TARGET=IT IDEA_VERSION=15.0.3
-    - TARGET=IT IDEA_VERSION=2016.1.2
 
 cache:
   directories:
@@ -26,4 +23,3 @@ notifications:
   email: false
   webhooks:
     - secure: "QmckyMLPFVrOaIL9fVLfrQcOTO8VTL0sflvvT6lyf4Vxb/YuL5sSBWBltZWwATmfImYczeH5IR6VDiu+69dsOtqJSKZUsz5XN26ljFZr5jj4i+hxVT5qqW0woM5IeTqeKbUHmi7Vwt31IknMVcltthhc+9zm0T5Z6JZm2shqYYo="
-    
